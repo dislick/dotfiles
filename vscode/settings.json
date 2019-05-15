@@ -1,0 +1,54 @@
+{
+  "files.exclude": {
+    "**/dist": true,
+    "**/dest": true,
+    "**/.sass-cache": true,
+    "**/.tmp": true,
+    "**/node_modules": true
+  },
+  "editor.fontFamily": "Inconsolata, Fira Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 0,
+  "editor.tabSize": 2,
+  "editor.rulers": [80],
+  "editor.wordWrap": "on",
+  "rewrap.wrappingColumn": 80,
+  "window.zoomLevel": 0.4,
+  "workbench.editor.showIcons": true,
+  "editor.mouseWheelZoom": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "workbench.editor.tabSizing": "fit",
+  "git.autofetch": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "gitblame.isWebPathPlural": true,
+  "gitlens.currentLine.enabled": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "vscode-great-icons",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+

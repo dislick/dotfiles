@@ -25,10 +25,11 @@
   "editor.renderWhitespace": "none",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "tslint.alwaysShowRuleFailuresAsWarnings": true,
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true
+    "source.fixAll.tslint": true,
+    "source.organizeImports": false
   },
   "gitblame.isWebPathPlural": true,
   "gitlens.currentLine.enabled": false,
@@ -49,6 +50,10 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "gitlens.blame.separateLines": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.blame.highlight.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "advancedNewFile.convenienceOptions": ["current", "last", "root"]
 }
-

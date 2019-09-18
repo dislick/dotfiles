@@ -55,5 +55,6 @@
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.blame.highlight.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
-  "advancedNewFile.convenienceOptions": ["current", "last", "root"]
+  "advancedNewFile.convenienceOptions": ["current", "last", "root"],
+  "editor.cursorSurroundingLines": 5
 }

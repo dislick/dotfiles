@@ -94,3 +94,8 @@ alias gitl="git log --graph --oneline --decorate --all"
 alias findpi="sudo nmap -sn 192.168.18.0/24 | grep -B 2 Raspberry"
 alias mknpmrc="echo "registry=https://registry.npmjs.org/" > .npmrc"
 alias diskcap='df -h | grep /dev/disk1s1 | awk '\''{ print $4,$5 }'\'''
+alias ce='code .'
+
+function rmknownhost() {
+  sed -i "" "/$1/d" ~/.ssh/known_hosts
+}

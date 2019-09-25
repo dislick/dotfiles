@@ -32,7 +32,6 @@
     "source.organizeImports": false
   },
   "gitblame.isWebPathPlural": true,
-  "gitlens.currentLine.enabled": false,
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "[typescriptreact]": {
@@ -56,5 +55,6 @@
   "gitlens.blame.highlight.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "advancedNewFile.convenienceOptions": ["current", "last", "root"],
-  "editor.cursorSurroundingLines": 5
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line"
 }

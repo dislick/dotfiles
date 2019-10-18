@@ -89,12 +89,20 @@ export NVM_DIR="/Users/patrickmuff/.nvm"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# https://stackoverflow.com/questions/57591432/gpg-signing-failed-inappropriate-ioctl-for-device-on-macos-with-maven
+GPG_TTY=$(tty)
+export GPG_TTY
+
 alias gitc="git add . && git commit"
 alias gitl="git log --graph --oneline --decorate --all"
 alias findpi="sudo nmap -sn 192.168.18.0/24 | grep -B 2 Raspberry"
 alias mknpmrc="echo "registry=https://registry.npmjs.org/" > .npmrc"
 alias diskcap='df -h | grep /dev/disk1s1 | awk '\''{ print $4,$5 }'\'''
 alias ce='code .'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 
 function rmknownhost() {
   sed -i "" "/$1/d" ~/.ssh/known_hosts

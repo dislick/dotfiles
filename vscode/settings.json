@@ -14,7 +14,7 @@
   "editor.rulers": [80],
   "editor.wordWrap": "on",
   "rewrap.wrappingColumn": 80,
-  "window.zoomLevel": 0.4,
+  "window.zoomLevel": 0.6,
   "workbench.editor.showIcons": true,
   "editor.mouseWheelZoom": false,
   "git.enableSmartCommit": true,
@@ -32,8 +32,6 @@
     "source.organizeImports": false
   },
   "gitblame.isWebPathPlural": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

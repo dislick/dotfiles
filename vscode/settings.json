@@ -7,14 +7,15 @@
     "**/node_modules": true
   },
   "editor.fontFamily": "Inconsolata, Fira Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 17,
+  "editor.fontSize": 16,
+  "editor.fontLigatures": false,
   "editor.formatOnSave": true,
-  "editor.lineHeight": 0,
+  "editor.lineHeight": 23,
   "editor.tabSize": 2,
   "editor.rulers": [80],
   "editor.wordWrap": "on",
   "rewrap.wrappingColumn": 80,
-  "window.zoomLevel": 0.6,
+  "window.zoomLevel": 1.2,
   "workbench.editor.showIcons": true,
   "editor.mouseWheelZoom": false,
   "git.enableSmartCommit": true,
@@ -24,14 +25,12 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "tslint.alwaysShowRuleFailuresAsWarnings": true,
   "breadcrumbs.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.codeActionsOnSave": {
     "source.fixAll.tslint": true,
     "source.organizeImports": false
   },
-  "gitblame.isWebPathPlural": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -41,7 +40,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.iconTheme": "vscode-great-icons",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -52,7 +50,7 @@
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.blame.highlight.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
-  "advancedNewFile.convenienceOptions": ["current", "last", "root"],
   "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line"
+  "gitlens.hovers.currentLine.over": "line",
+  "workbench.iconTheme": "vscode-great-icons"
 }

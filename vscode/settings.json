@@ -15,7 +15,7 @@
   "editor.rulers": [80],
   "editor.wordWrap": "on",
   "rewrap.wrappingColumn": 80,
-  "window.zoomLevel": 1.2,
+  "window.zoomLevel": 1,
   "workbench.editor.showIcons": true,
   "editor.mouseWheelZoom": false,
   "git.enableSmartCommit": true,
@@ -52,5 +52,6 @@
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
-  "workbench.iconTheme": "vscode-great-icons"
+  "workbench.iconTheme": "vscode-great-icons",
+  "git.inputValidationSubjectLength": 72
 }

@@ -12,3 +12,9 @@ defaults write -g KeyRepeat -int 2
 ## Move Focus to Next Window Shortcut
 
 ![screenshot](./move_window_focus.png)
+
+## Disable Dock Resize
+
+```bash
+defaults write com.apple.dock size-immutable -bool true; killall Dock
+```

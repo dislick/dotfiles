@@ -18,3 +18,9 @@ defaults write -g KeyRepeat -int 2
 ```bash
 defaults write com.apple.dock size-immutable -bool true; killall Dock
 ```
+
+## Default Screenshot Folder
+
+```bash
+defaults write com.apple.screencapture location ~/Desktop/Screenshots && killall SystemUIServer
+```
